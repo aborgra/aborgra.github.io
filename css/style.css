@@ -13,11 +13,41 @@ text-align:center;
 .contact-container{
   margin: auto;
   min-width: 250px;
+  text-align: left
 }
 
+.projectImagesContainer {
+  max-height: 600px;
+}
+
+.projectDescription {
+  font-size: 11pt !important;
+  line-height: 20px;
+}
+
+.projectTitle {
+  color: white;
+}
+
+.projectLogo {
+  padding: 25pt;
+}
 .contactInfo-container{
   max-width: 150px;
-  margin: auto;
+  font-size: 18pt;
+  color: rgb(32, 32, 32) !important;
+}
+
+.techIcon-Container{
+margin-left: -15pt;
+}
+
+.techIcon{
+width: 100px !important;
+}
+
+.jsIcon {
+  padding: 8pt;
 }
 
 .copyright{
@@ -101,7 +131,7 @@ body:after {
       border-color: #000;
       color: #fff; }
     .btn.btn-primary.btn-black--hover:hover {
-      background: #666666;
+      background: #6e6d6d;
       color: #fff; }
 
 .line-height-1 {
@@ -124,7 +154,7 @@ body:after {
   padding: 2.5em 0; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 7em 0; } }
+      padding: 5em 0; } }
   .site-section.site-section-sm {
     padding: 4em 0; }
 
@@ -627,7 +657,7 @@ body:after {
 
 .section-title {
   position: relative;
-  padding-bottom: 20px; }
+  padding-bottom: 10px; }
   .section-title:after {
     content: "";
     position: absolute;
@@ -747,10 +777,13 @@ body:after {
       -webkit-transform: scale(1);
       -ms-transform: scale(1);
       transform: scale(1);
+      height: 250px !important;
+
       -webkit-transition: .3s all ease-in-out;
       -o-transition: .3s all ease-in-out;
       transition: .3s all ease-in-out; }
   .item .item-wrap {
+    text-align: center;
     display: block;
     position: relative; }
     .item .item-wrap:after {
@@ -761,7 +794,7 @@ body:after {
       left: 0;
       right: 0;
       bottom: 0;
-      background: rgba(0, 0, 0, 0.4);
+      background: rgba(0, 0, 0, 0.767);
       visibility: hidden;
       opacity: 0;
       -webkit-transition: .3s all ease-in-out;
@@ -885,6 +918,6 @@ body:after {
   .footer ul li {
     margin-bottom: 10px; }
   .footer a {
-    color: #888888; }
+    color: #3b3939; }
     .footer a:hover {
       color: #000; }
