@@ -2,6 +2,30 @@
 html {
   overflow-x: hidden; }
 
+.img-container{
+text-align:center;
+}
+
+.social-circle {
+  margin-right: 5pt;
+}
+
+.contact-container{
+  margin: auto;
+  min-width: 250px;
+}
+
+.contactInfo-container{
+  max-width: 150px;
+  margin: auto;
+}
+
+.copyright{
+  margin-top: 50pt;
+  color: lightgray;
+  font-size: 6pt;
+}
+
 body {
   line-height: 1.7;
   color: #666666;
