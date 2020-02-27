@@ -11,7 +11,7 @@ text-align:center;
 }
 
 .contact-container{
-  margin: auto;
+  margin-right: 100px;
   min-width: 250px;
   text-align: left
 }
@@ -154,7 +154,7 @@ body:after {
   padding: 2.5em 0; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 5em 0; } }
+      padding: 6em 0; } }
   .site-section.site-section-sm {
     padding: 4em 0; }
 
@@ -189,6 +189,13 @@ body:after {
     font-size: 16px;
     color: #fff; }
 
+  .projects-Title {
+    padding-top: 30px;
+  }
+
+.icon-plus:hover {
+color:#669ef3;
+}
 .bg-text-line {
   display: inline;
   background: #000;
@@ -647,7 +654,7 @@ body:after {
     font-family: "Arbutus Slab", serif; }
   .site-blocks-cover .img-face {
     position: absolute;
-    right: -5%;
+    right: 5%;
     bottom: 0;
     z-index: 1;
     max-width: 950px; }
@@ -833,11 +840,18 @@ body:after {
     -o-transition: .3s all ease-in-out;
     transition: .3s all ease-in-out; }
 
+.slide {
+  max-width: 400px;
+
+}
+
 .slide-one-item .slide {
-  text-align: center; }
+  text-align: center;
+  margin: auto;
+}
   .slide-one-item .slide blockquote {
     position: relative;
-    max-width: 700px;
+    max-width: 300px;
     font-size: 1.2rem;
     color: #000;
     margin-left: auto;
